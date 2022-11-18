@@ -6,7 +6,7 @@ package { "ntp":
 # Arquivo de configuração
 file { "/etc;ntp.conf":
     ensure => "present",
-    content => "server b.ntp.br iburst\n",
+    content => "server 0.br.pool.ntp.org iburst\n",
 }
 
 # Start no serviço do ntp
