@@ -6,7 +6,7 @@ package { "ntp":
 # Arquivo de configuração
 file { "/etc;ntp.conf":
     ensure => "present",
-    content => "server time.cloudflare.com iburst\n",
+    content => "server b.ntp.br iburst\n",
 }
 
 # Start no serviço do ntp
