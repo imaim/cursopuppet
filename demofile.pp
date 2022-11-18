@@ -1,5 +1,5 @@
 file { "/tmp/testfile":
-    ensure  => "presente",
+    ensure  => "present",
     owner   => "labestudo",
     group   => "labestudo",
     mode    => "0777",
