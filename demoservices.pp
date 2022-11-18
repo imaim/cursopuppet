@@ -1,3 +1,3 @@
-service { "nfs":
+service { "nfs-kernel-server":
     ensure => "running",
 }
