@@ -3,4 +3,5 @@ file { "/tmp/testfile":
     owner   => "labestudo",
     group   => "labestudo",
     mode    => "0777",
+    content => "Hello, welcome to this Complet Curse of Puppet\n",
 }
