@@ -1,3 +1,3 @@
-package { "telnet":
+package { "ncdu":
     ensure => "installed",
 }
