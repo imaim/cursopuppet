@@ -4,7 +4,7 @@ package { "ntp":
 }
 
 # Arquivo de configuração
-file { "/etc;ntp.conf":
+file { "/etc/ntp.conf":
     ensure => "present",
     content => "server server a.ntp.br\n server b.ntp.br\n server c.ntp.br iburst nts\n",
 }
